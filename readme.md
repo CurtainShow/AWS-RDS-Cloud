@@ -71,6 +71,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#machine-learning">Machine Learning</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -153,14 +154,46 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Search for the dataset that contains structured and unstructured data
 - [x] Structured data flows to the cloud
-- [ ] Unstructured data flows to the cloud
-- [ ] Production of dashboards
-- [ ] Bonus : Testing an ML algorithm on the dataset
+- [x] Unstructured data flows to the cloud
+- [x] Production of dashboards
+- [x] Bonus : Testing an ML algorithm on the dataset
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- AWS - RDS -->
+## AWS RDS
+
+1. **Create an RDS** instance on Amazon Web Service
+2. **Create a database** on the RDS instance
+3. **Connect the database** to Python (PyMySQL)
+4. **Create a table** with a schema that fits the chosen dataset
+5. Read your dataset with Pandas
+6. **Feed the table** with your dataset
+
+See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/main/script) in the Jupyter Notebook file.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MACHINE LEARNING -->
+## Machine Learning
+
+1. **Import the libraries** used for the process (Tensorflow, Pandas, Numpy, etc...)
+2. **Create a data frame** from your dataset (Pandas)
+3. **Split your data** into two parts (Training 80%, Test 20%)
+4. **Pre-process your data** frame to retrieve only the data you need (Review, Rating, Book-id, etc...)
+5. **Tokenize** the review with a pre-trained ressource: **GloVE 6B 200d** (Analysis on text requires a vectorization of your information to be meaningful for the computer)
+6. **Create your model** (Embedding, Conv1D,MaxPooling1D, Dropout, Flatten, Dense)
+7. **Train your model** and adjust your hyper-parameters
+8. **Predict your Test dataset**
+9. **Render the result** on a CSV file
+
+See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/main/documentation) in the Jupyter Notebook file.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
