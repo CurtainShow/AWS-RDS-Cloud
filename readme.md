@@ -121,6 +121,11 @@ Prerequisites list of things you need to use the software and how to install the
   ```sh
   pyenv install 3.9.5 
   ```
+  
+* Streamlit (for the reporting file)
+```sh
+  pip install streamlit
+  ```
 
 ### Installation
 
