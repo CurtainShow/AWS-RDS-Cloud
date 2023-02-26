@@ -72,6 +72,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#aws-rds">AWS RDS</a></li>
+    <li><a href="#aws-bucket">AWS BUCKET</a></li>
     <li><a href="#machine-learning">Machine Learning</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -173,6 +174,18 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 4. **Create a table** with a schema that fits the chosen dataset
 5. Read your dataset with Pandas
 6. **Feed the table** with your dataset
+
+See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/main/script) in the Jupyter Notebook file.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- AWS - BUCKET -->
+## AWS BUCKET
+
+1. **Create an S3** instance on Amazon Web Service
+2. **Create a Bucket** on the S3 instance
+3. **Feed the Bucket** with your unstructured files, picture in this case, thanks to the AWS command line 
 
 See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/main/script) in the Jupyter Notebook file.
 
