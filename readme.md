@@ -123,7 +123,7 @@ Prerequisites list of things you need to use the software and how to install the
   ```
   
 * Streamlit (for the reporting file)
-```sh
+  ```sh
   pip install streamlit
   ```
 
