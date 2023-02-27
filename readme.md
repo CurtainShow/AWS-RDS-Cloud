@@ -148,7 +148,7 @@ Prerequisites list of things you need to use the software and how to install the
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<img src="documentation/screenshot/Diagramme-AWS-Project.png" alt="Logo" >
+<img src="documentation/screenshot/AWS-Project-final.png" alt="Logo" >
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
