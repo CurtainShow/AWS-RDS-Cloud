@@ -192,6 +192,14 @@ See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/mai
 2. **Create a Bucket** on the S3 instance
 3. **Feed the Bucket** with your unstructured files, picture in this case, thanks to the AWS command line 
 
+### Commands used to feed the instance
+
+* aws s3 mb s3://awsprojetesgi
+* cd /Volumes/GoogleDrive/My\ Drive/ESGI/Deep\ Learning/dataset/original
+* aws s3 sync . s3://awsprojetesgi 
+* aws s3 ls s3://awsprojetesgi
+* aws s3 rm s3://awsprojetesgi --recursive
+
 See the [full explanation](https://github.com/CurtainShow/AWS-RDS-Cloud/tree/main/script) in the Jupyter Notebook file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
